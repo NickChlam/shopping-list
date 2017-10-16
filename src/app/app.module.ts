@@ -6,13 +6,12 @@ import { FormsModule } from '@angular/forms';
 //components
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './Header/header.component';
-import { ShoppingListEditComponent } from './Shopping-list/shopping-list-edit/shopping-list-edit.component'
-import { ShoppingListComponent} from './Shopping-List/shopping-list/shopping-list.component';
-import { RecipieListComponent } from './Recipie-Book/recipie-list/recipie-list.component';
-import { RecipieItemComponent } from './Recipie-Book/recipie-list/recipie-item/recipie-item.component';
-import { RecipieDetailComponent } from './Recipie-Book/recipie-list/recipie-detail/recipie-detail.component';
-import { RecipiesComponent } from './src/app/recipies/recipies.component';
-import { ShoppingEditComponent } from './src/app/shopping-list/shopping-edit/shopping-edit.component';
+import { ShoppingEditComponent } from './shopping-list/shopping-edit/shopping-edit.component'
+import { ShoppingListComponent} from './shopping-list/shopping-list.component';
+import { RecipieListComponent } from './recipies/recipie-list/recipie-list.component';
+import { RecipieItemComponent } from './recipies/recipie-list/recipie-item/recipie-item.component';
+import { RecipieDetailComponent } from './recipies/recipie-detail/recipie-detail.component';
+import { RecipiesComponent } from './recipies/recipies.component';
 
 // MODELS
 
@@ -21,7 +20,7 @@ import { ShoppingEditComponent } from './src/app/shopping-list/shopping-edit/sho
   declarations: [
     AppComponent,
     HeaderComponent,
-    ShoppingListEditComponent,
+    ShoppingEditComponent,
     ShoppingListComponent,
     RecipieListComponent,
     RecipieItemComponent,
